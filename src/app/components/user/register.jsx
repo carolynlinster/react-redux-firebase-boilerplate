@@ -31,7 +31,7 @@ class UserRegister extends Component {
 
     render() {
         return (
-            <div className="col-md-4">
+            <div className="col-md-8 border">
                 <form id="frmRegister" role="form" onSubmit={this.onFormSubmit}>
                     <p>{this.state.message}</p>
                     <h2>Register</h2>
